@@ -36,3 +36,9 @@ let discountPrice = prices.map(price => price * discount)//applying the discount
 console.log(discountPrice);
 
 //Task 5: Filter Method
+let inventory = [5, 0, 12, 8, 0];
+let availableStock = inventory.filter(stock => stock > 0);
+//Filtering out the zero stock
+console.log (`Available stock: ${availableStock}`);
+
+//Task 6: Reduce Method
