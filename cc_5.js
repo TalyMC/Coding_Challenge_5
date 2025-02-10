@@ -4,9 +4,9 @@ let customer = {
     age: 35,
     email: "john.doe@email.com"
 };
-console.log(`Customer Name: ${customer.name}`);
-console.log(`Customer Age: ${customer.age}`);
-console.log(`Customer Email: ${customer.email}`);
+console.log(`Customer Name: ${customer.name}`); //display customer name
+console.log(`Customer Age: ${customer.age}`); //display customer age
+console.log(`Customer Email: ${customer.email}`); //display customer email
 
 //Task 2: Object Methds
 let order = {
@@ -15,9 +15,9 @@ let order = {
     status: "Processing",
     displayOrder: function() {
         console.log(`Order Id: ${this.orderId}, Total: $${this.totalAmount}, Status: ${this.status}`)
-    }
+    } //log the order details
 };
-order.displayOrder();
+order.displayOrder(); //call the fucntion
 
 //Task 3: Array Manipulation
 let cartItems = ["Dog Bed", "Dog Leash", "Dog Collar"];
@@ -29,3 +29,10 @@ cartItems.shift(); //removing beginnig item
 console.log(cartItems);
 
 //Task 4: Map Method
+let prices = [100, 200, 300]; //array of prices
+const discount = 0.9; //10% discount
+let discountPrice = prices.map(price => price * discount)//applying the discount to prices
+
+console.log(discountPrice);
+
+//Task 5: Filter Method
