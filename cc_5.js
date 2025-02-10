@@ -20,3 +20,12 @@ let order = {
 order.displayOrder();
 
 //Task 3: Array Manipulation
+let cartItems = ["Dog Bed", "Dog Leash", "Dog Collar"];
+cartItems.push("Dog Toy"); //adding new item
+cartItems.pop(); //removing the last items
+cartItems.unshift("Dog Harness"); //adding item to the beginning
+cartItems.shift(); //removing beginnig item
+
+console.log(cartItems);
+
+//Task 4: Map Method
