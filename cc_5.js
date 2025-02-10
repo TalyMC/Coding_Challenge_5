@@ -54,3 +54,10 @@ let findCustomer = customers.find(customer => customer === "Charlie");
 console.log(`Customer: ${findCustomer}`);
 
 //Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    return tax = amount * taxRate;
+    };
+console.log (`Tax Amount: $${calculateTax(250, 0.07)}`)
+//applyed a 7% tax rate to $250 to determine the tax amount
+
+//Task 9: Function Expression
