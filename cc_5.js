@@ -9,3 +9,14 @@ console.log(`Customer Age: ${customer.age}`);
 console.log(`Customer Email: ${customer.email}`);
 
 //Task 2: Object Methds
+let order = {
+    orderId: 12345,
+    totalAmount: 150,
+    status: "Processing",
+    displayOrder: function() {
+        console.log(`Order Id: ${this.orderId}, Total: $${this.totalAmount}, Status: ${this.status}`)
+    }
+};
+order.displayOrder();
+
+//Task 3: Array Manipulation
