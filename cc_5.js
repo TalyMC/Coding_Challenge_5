@@ -57,7 +57,14 @@ console.log(`Customer: ${findCustomer}`);
 function calculateTax(amount, taxRate) {
     return tax = amount * taxRate;
     };
-console.log (`Tax Amount: $${calculateTax(250, 0.07)}`)
+console.log (`Tax Amount: $${calculateTax(250, 0.07)}`);
 //applyed a 7% tax rate to $250 to determine the tax amount
 
 //Task 9: Function Expression
+function applyDiscount (price, discount) {
+    return discount = price - (price * discount);
+};
+console.log (`Discounted Price: $${applyDiscount(170, 0.40)}`);
+//applyed a 40% discount to $170 to determine the discounted price
+
+//Task 10: Arrow Function
