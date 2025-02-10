@@ -48,3 +48,9 @@ let totalRevenue = sales.reduce((total, sales)=> total + sales, 0);
 console.log(`Total Revenue: $${totalRevenue}`);
 
 //Task 7: find() Method
+let customers = ["Alice", "Bob", "Charlie", "David"];
+let findCustomer = customers.find(customer => customer === "Charlie");
+
+console.log(`Customer: ${findCustomer}`);
+
+//Task 8: Function Declaration
