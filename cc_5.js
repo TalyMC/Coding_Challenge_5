@@ -42,3 +42,9 @@ let availableStock = inventory.filter(stock => stock > 0);
 console.log (`Available stock: ${availableStock}`);
 
 //Task 6: Reduce Method
+let sales = [500, 300, 200, 400];
+let totalRevenue = sales.reduce((total, sales)=> total + sales, 0);
+//calculating the total revenue
+console.log(`Total Revenue: $${totalRevenue}`);
+
+//Task 7: find() Method
