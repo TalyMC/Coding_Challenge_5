@@ -68,3 +68,9 @@ console.log (`Discounted Price: $${applyDiscount(170, 0.40)}`);
 //applyed a 40% discount to $170 to determine the discounted price
 
 //Task 10: Arrow Function
+let calculatePoints = (purchaseAmount) => {
+    let points = Math.floor(purchaseAmount / 10);
+    return points;
+} //Function for determing points earned
+let loyaltyPoints = calculatePoints(3600); //points accumulated 
+console.log(`Loyalty Points: ${loyaltyPoints}`);
